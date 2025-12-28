@@ -12,5 +12,8 @@ export default defineNuxtConfig({
       file: 'si.json',
     }],
   },
-  extends:['docus']
+  extends:['docus'],
+  image: {
+    provider: 'ipxStatic',
+  }
 })
