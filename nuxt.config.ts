@@ -5,9 +5,12 @@ export default defineNuxtConfig({
     locales: [{
       code: 'en',
       name: 'English',
+      file: 'en.json',
     }, {
-      code: 'fr',
-      name: 'Français',
+      code: 'si',
+      name: 'සිංහල',
+      file: 'si.json',
     }],
   },
+  extends:['docus']
 })
