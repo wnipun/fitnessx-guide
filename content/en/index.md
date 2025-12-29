@@ -1,40 +1,25 @@
 ---
 seo:
-  title: Write beautiful docs with Markdown
-  description: Ship fast, flexible, and SEO-optimized documentation with beautiful
-    design out of the box. Docus brings together the best of the Nuxt ecosystem.
-    Powered by Nuxt UI.
+  title: Fitnessx User Guide
+  description: Smart access management for your fitness center.
 ---
 
 ::u-page-hero
 #title
-Write beautiful docs with Markdown
+Fitnessx User Guide
 
 #description
-Ship fast, flexible, and SEO-optimized documentation with beautiful design out of the box.
-
-Docus brings the best of the Nuxt ecosystem into one CLI.
+Smart access management for your fitness center.
 
 #links
   :::u-button
   ---
   color: neutral
   size: xl
-  to: /en/getting-started/installation
+  to: /en/essentials/dashboard
   trailing-icon: i-lucide-arrow-right
   ---
   Get started
-  :::
-
-  :::u-button
-  ---
-  color: neutral
-  icon: simple-icons-github
-  size: xl
-  to: https://github.com/nuxt-content/docus
-  variant: outline
-  ---
-  Star on GitHub
   :::
 ::
 
@@ -50,10 +35,10 @@ Shipped with many features
   to: https://nuxt.com
   ---
   #title
-  Built with [Nuxt 4]{.text-primary}
+  Member [Management]{.text-primary}
   
   #description
-  Optimized by the most famous Vue framework. Docus gives you everything you need to build fast, performant, and SEO-friendly websites.
+  Manage your members efficiently with a powerful and flexible system ensuring scalability and performance for your fitness center.
   :::
 
   :::u-page-feature
@@ -63,10 +48,10 @@ Shipped with many features
   to: https://ui.nuxt.com/
   ---
   #title
-  Powered by [Nuxt UI]{.text-primary}
+  Notifications and [Reminders]{.text-primary}
   
   #description
-  Beautiful out of the box, minimal by design but highly customizable. Docus leverages Nuxt UI to give you the best docs writing experience with zero boilerplate, just focus on your content.
+  Keep your members informed with automated notifications via email, SMS, and WhatsApp for important updates and reminders.
   :::
 
   :::u-page-feature
@@ -76,10 +61,10 @@ Shipped with many features
   to: https://content.nuxt.com
   ---
   #title
-  Enhanced Markdown syntax by [Nuxt Content]{.text-primary}
+  Face or Card [Authentication]{.text-primary}
   
   #description
-  The only thing you need to take care about is writing your content. Write your pages in Markdown and extend with MDC syntax to embed Nuxt UI or custom Vue components. Structure, routing, and rendering are handled for you.
+  Secure access to your facility using facial recognition or membership cards, ensuring a seamless and safe entry experience for your members.
   :::
 
   :::u-page-feature
@@ -89,10 +74,10 @@ Shipped with many features
   to: https://nuxt.com/docs/guide/directory-structure/app-config
   ---
   #title
-  Customize with [Nuxt App Config]{.text-primary}
+  Automated Staff [Commission]{.text-primary}
   
   #description
-  Update colors, social links, header logos and component styles globally using the `app.config.ts`, no direct code modifications required.
+  Streamline your payroll process by automatically calculating and distributing commissions to your staff based on member sign-ups and renewals.
   :::
 
   :::u-page-feature
@@ -102,10 +87,10 @@ Shipped with many features
   to: https://content.nuxt.com/studio
   ---
   #title
-  Collaborate on [Nuxt Studio]{.text-primary}
+  Attendance and Payment [Reports]{.text-primary}
   
   #description
-  Write and manage your content visually, with zero Markdown knowledge required. Let your non technical colleagues collaborate on the documentation and integrate Vue components without code skills.
+  Generate detailed reports on member attendance and payments to analyze trends and make informed decisions for your fitness center.
   :::
 
   :::u-page-feature
@@ -115,9 +100,9 @@ Shipped with many features
   to: https://ui.nuxt.com/components/content-search
   ---
   #title
-  Built-in navigation and [full-text search]{.text-primary}
+  Dedicated Customer [Support]{.text-primary}
   
   #description
-  Only focus on ordering your content, Docus handles the search modal and auto-generates the side navigation for you.
+  Receive personalised assistance from our support team to help you get the most out of Fitnessx and address any challenges you may face.
   :::
 ::
