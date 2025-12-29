@@ -1,5 +1,8 @@
 export default defineNuxtConfig({
   modules: ['@nuxtjs/i18n', '@nuxt/eslint', '@nuxt/fonts'],
+  site: { 
+    name: 'Fitnessx User Guide',
+  },
   i18n: {
     defaultLocale: 'en',
     locales: [{
